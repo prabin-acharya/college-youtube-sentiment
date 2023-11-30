@@ -4,7 +4,7 @@ from keras.preprocessing.sequence import pad_sequences
 import numpy as np
 import re
 import nltk
-# nltk.download('punkt')
+nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from keras.preprocessing.text import Tokenizer
 import pandas as pd
