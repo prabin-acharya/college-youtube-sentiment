@@ -1,3 +1,4 @@
+import os
 from flask import Flask, request, jsonify, render_template
 from keras.models import load_model
 from keras.preprocessing.sequence import pad_sequences
